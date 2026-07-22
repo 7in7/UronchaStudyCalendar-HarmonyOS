@@ -88,6 +88,7 @@ export struct TabBarSwitcher {
     }
     .barPosition(BarPosition.End)
     .barOverlap(true)
+    .scrollable(false)
     .backgroundColor(Color.Transparent)
     .barFloatingStyle({
       barBottomMargin: 16,
@@ -191,7 +192,7 @@ export struct TabBarSwitcher {
     .backgroundColor(Color.Transparent)
     .barHeight(56)
     .barMode(BarMode.Fixed)
-    .scrollable(true)
+    .scrollable(false)
     .animationDuration(300)
     .barOverlap(true)
     .barBackgroundBlurStyle(BlurStyle.Thin)

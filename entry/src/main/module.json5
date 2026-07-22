@@ -16,6 +16,9 @@
       },
       {
         "name": "ohos.permission.HDR_BRIGHTNESS"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
       }
     ],
     "abilities": [
